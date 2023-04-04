@@ -2,10 +2,9 @@
 
 Data and code repository for the paper "You are where you eat: Effect of mobile food environments on fast food visit" by Bernardo García-Bulle et al.
 
-- Each script Fig?.R contains the code to produce each figure in the main paper.
-- The data directory contains:
-  * Actions: the files with the individual visits to food outlets (and fast food outlets) during lunch, after visiting the DMV, and thoroughout the day. For privacy reasons we just report those outings only in census tracts where the number of unique users is bigger than 10
-  * Users: the demographic and activity characteristics for each user. Demographic characteristics for each user correspond to the Census Block Group of their home and are obtained throuhg the American Community Survey. For privacy reasons, we only report the quartiles of each demographic trait across users.
-  * POIs: list of POIs considered in our analysis for each metro area.
+-   Each script Fig?.R contains the code to produce each figure in the main paper.
+-   The meta_data.R and viz_settings.R scripts contain some settings for the visualization of the results.
+-   Data can be found at <https://doi.org/10.5281/zenodo.7796604> and should be placed in the data folder here.
+-   See the Supplementary Material for the list of R libraries used in the analysis.
 
-If you have questions regarding the code or data, or have questions about the analysis pipeline we used in general, please contact emoro@mit.edu.
+If you have questions regarding the code or data, or have questions about the analysis pipeline we used in general, please contact [emoro\@mit.edu](mailto:emoro@mit.edu){.email}.
